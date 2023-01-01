@@ -4,7 +4,7 @@
         "build": "rm -rf public && npx parcel build index.html && mkdir public && mv dist/* public/ && rm -rf dist/"
     },
     "devDependencies": {
-        "parcel": "^1.12.4",
+        "parcel": "^2.8.2",
         "parcel-plugin-static-files-copy": "^2.2.1"
     },
     "dependencies": {
